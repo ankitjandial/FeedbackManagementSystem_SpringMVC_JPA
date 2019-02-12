@@ -1,0 +1,60 @@
+
+html{overflow-y:scroll;} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
+
+
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:block; clear:both;}
+html[xmlns] .clear{display:block;}
+* html .clear{height:1%;}
+
+.fl_center{float:center;}
+
+
+
+/*----------------------------------------------HTML 5 Overrides-------------------------------------*/
+
+ footer, header{display:block; margin:0; padding:0;}
+
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
+
+div.wrapFoot{display:block; width:100%; margin:0; padding:0; text-align:left;position: relative;bottom: 0}
+
+.row1, .row1 a{color:#C0BAB6; background-color:#333333;}
+.row2, .row2 a{color:#919191; background-color:#232323;}
+
+/*----------------------------------------------Generalise-------------------------------------*/
+
+#header, #footer{display:block; width:960px; margin:0 auto;}
+
+
+h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-size:22px; font-weight:normal; font-style:italic; line-height:normal;}
+
+
+form, fieldset, legend{margin:0; padding:0; border:none;}
+legend{display:none;}
+input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Times,serif;}
+
+
+/*----------------------------------------------Header-------------------------------------*/
+
+#header{padding:20px 0;}
+
+#header #hgroup{float:left; margin:0 0 20px 0;}
+#header #hgroup h1, #header #hgroup h2{font-weight:normal; font-style:normal; text-transform:none;}
+#header #hgroup h1{font-size:30px;}
+#header #hgroup h2{font-size:16px;}
+
+#header form{ width:290px; float:right; margin:15px 0; padding:0;}
+#header form div{ float:left; width:200px; margin:0; padding:5px; }
+#header form #sf_submit{display:block; width:90px; font-size:12px; font-weight:bold; text-transform:uppercase; color:#FFFFFF; background-color:#FF9900; border:none; cursor:pointer;}
+
+
+
+/*----------------------------------------------Footer-------------------------------------*/
+
+#footer{padding:20px 0;}
+#footer p{margin:0; padding:0;}

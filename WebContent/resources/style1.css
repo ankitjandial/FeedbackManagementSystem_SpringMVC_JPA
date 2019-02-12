@@ -1,0 +1,91 @@
+@CHARSET "ISO-8859-1";
+
+.tabs .tab{
+	/*line-height:30px;*/
+	color:#33b5e5;
+}
+
+.tabs .tab a{
+	color:#33b5e5;
+}
+
+.tabs .tab a.active{
+	color:#33b5e5;
+	font-weight: bolder; 
+}
+
+.tabs .tab a:hover{
+	color:red;
+	font-weight: bolder;
+}
+
+.tabs .indicator{
+	     background-color:red;
+	     margin: 1px  
+}
+
+#test-swipe-1{
+    padding: 0px 0.75rem;
+}
+
+.active {
+	padding: 0px 1px;
+}
+
+.blue{
+	padding: 0px 1px;
+}
+
+.second{
+	border: 2px solid black;
+	padding-bottom: 10px;		
+}
+
+.tab1{
+	border-left: black 1px solid;
+	border-right: black 1px solid;
+	margin-top: 20px;
+}
+
+.welcome{
+	font-weight: bolder; 
+	font-size: 20px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.panel{
+	text-align: center;
+	font-family: arial;
+	font-style: normal;
+	margin-bottom: 2px;
+}
+
+.icn{
+	margin-left:30px;
+}
+
+.panel h2{
+	text-align: center;
+	font-family: arial;
+	font-style: normal; 
+	margin-right:200px;
+}
+
+table, tr, th, td{
+	border:1px solid black;
+}
+
+.cont{
+	margin-top:25px;
+}
+
+.heading{
+	margin-bottom: 10px;
+	font: arial;
+	font-style: normal;
+}
+
+.header-left {
+    margin-left: 670px;
+}
